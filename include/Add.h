@@ -8,6 +8,7 @@
 
 
 class Add {
+public:
     uint32_t static add(uint32_t a, uint32_t b);
 };
 
