@@ -6,7 +6,6 @@ project(AddLib
 )
 
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_INSTALL_PREFIX "${CMAKE_CURRENT_SOURCE_DIR}/staging")
 
 add_library(AddLib
         src/Add.cpp

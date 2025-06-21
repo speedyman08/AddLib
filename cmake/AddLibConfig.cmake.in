@@ -1,3 +1,4 @@
 @PACKAGE_INIT@
 
-include("${CMAKE_CURRENT_SOURCE_DIR}/../staging/lib/cmake/AddLibTargets.cmake")
+message("Using export file at ${CMAKE_INSTALL_PREFIX}/lib/cmake/AddLibTargets.cmake")
+include("${CMAKE_INSTALL_PREFIX}/lib/cmake/AddLibTargets.cmake")
