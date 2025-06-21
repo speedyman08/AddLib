@@ -16,7 +16,6 @@ target_include_directories(AddLib PRIVATE include/)
 # Install into staging/
 install(TARGETS AddLib
     EXPORT AddClass
-    ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib
 )
 
